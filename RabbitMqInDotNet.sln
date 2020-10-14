@@ -7,9 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicReceiver", "BasicRecei
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicSender", "BasicSender\BasicSender.csproj", "{E5DB7EB2-C5C5-40EB-9DF6-FC11F6C9664F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkQueue", "WorkQueue\WorkQueue.csproj", "{0F3E4098-B7E7-45AC-BA05-592F9B827646}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkQueue", "WorkQueue\WorkQueue.csproj", "{0F3E4098-B7E7-45AC-BA05-592F9B827646}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTask", "NewTask\NewTask.csproj", "{3CA8B96F-CD8C-4B16-A558-453AFDE04E25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTask", "NewTask\NewTask.csproj", "{3CA8B96F-CD8C-4B16-A558-453AFDE04E25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6E25AFBE-A15D-40EF-8973-BE26DA58FA26}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "Publisher\Publisher.csproj", "{51C94954-5C0E-488A-869C-1866BD2B7661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{26EB12F5-29D9-4271-B241-F53F17E50E04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,14 @@ Global
 		{3CA8B96F-CD8C-4B16-A558-453AFDE04E25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CA8B96F-CD8C-4B16-A558-453AFDE04E25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CA8B96F-CD8C-4B16-A558-453AFDE04E25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C94954-5C0E-488A-869C-1866BD2B7661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C94954-5C0E-488A-869C-1866BD2B7661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C94954-5C0E-488A-869C-1866BD2B7661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C94954-5C0E-488A-869C-1866BD2B7661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EB12F5-29D9-4271-B241-F53F17E50E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EB12F5-29D9-4271-B241-F53F17E50E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EB12F5-29D9-4271-B241-F53F17E50E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EB12F5-29D9-4271-B241-F53F17E50E04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
